@@ -62,7 +62,6 @@ const Header = () => {
                                     {item.name}
                                     <span className="border border-1 border-customColors-yellowCol  h-0.5 transition-all duration-300 ease-in-out origin-center transform scale-x-0 group-hover:scale-x-100"></span>
                                 </li>)) }
-                            
                             </ul>}
                             {
                                 toggleMenu 
