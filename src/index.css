@@ -1,0 +1,46 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+
+
+body {
+  background-color: "#000";
+}
+
+.animate-border {
+  width: fit-content;
+}
+
+.font-sofia {
+  font-family: 'Sofia Sans', sans-serif;
+}
+
+.font-trispace {
+  font-family: 'Trispace', sans-serif;
+}
+
+ /* Hide the default scrollbar */
+ /* .custom-scrollbar::-webkit-scrollbar { */
+  /* display: none; */
+/* } */
+
+/* Style the scrollbar track */
+.custom-scrollbar {
+  scrollbar-width: thin; /* For Firefox */
+  scrollbar-color: #787878 transparent; /* For Firefox */
+}
+
+.custom-scrollbar::-webkit-scrollbar  {
+  width: 1px;
+}
+
+/* Style the scrollbar thumb */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.active {
+  transform: scaleX(1);
+}
