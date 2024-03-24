@@ -29,7 +29,7 @@ body {
 /* Style the scrollbar track */
 .custom-scrollbar {
   scrollbar-width: thin; /* For Firefox */
-  scrollbar-color: #787878 transparent; /* For Firefox */
+  scrollbar-color: #424242 transparent; /* For Firefox */ 
 }
 
 .custom-scrollbar::-webkit-scrollbar  {
@@ -40,6 +40,7 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: transparent;
 }
+
 
 .active {
   transform: scaleX(1);

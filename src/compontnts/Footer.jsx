@@ -6,8 +6,8 @@ import { IoIosSend } from 'react-icons/io';
 const Footer = () => {
     return (
         <div className="bg-customColors-bg w-100 pb-5 pt-2">
-            <div className="flex flex-row lg:max-w-[94.5em] md:max-w-[90vw] max-w-[98vw] gap-5 w-full m-auto font-sofia justify-center flex-wrap px-3 lg:px-0">
-                <div className="flex-1 flex flex-col items-center lg:items-start">
+            <div className="flex flex-row lg:max-w-[94.5em] md:max-w-[90vw] max-w-[98vw] w-full m-auto font-sofia justify-between item-center flex-wrap px-3 lg:px-0">
+                <div className="flex-[0.94] flex flex-col items-center lg:items-start">
                     <p className="lg:text-[24px] text-[22px] font-[800] text-customColors-main lg:mb-4">Contact</p>
                     <div className="flex flex-col items-center lg:items-start lg:gap-5">
                         <p className="lg:text-[18px] text-[16px] font-[600] text-customColors-mail">Turku, Finland</p>
@@ -29,7 +29,7 @@ const Footer = () => {
                     <p className="lg:text-[24px] text-[22px] font-[800] text-customColors-main lg:mb-4">GET GOOD NEWS</p>
                     <div className="flex gap-3">
 
-                        <input type="text" name="email" className="lg:w-[405px] w-auto outline-none border-b-2 border-customColors-inpTextBorder bg-transparent" placeholder="write your mail"/>
+                        <input type="text" name="email" className="lg:w-[405px] w-auto outline-none border-b-2 border-customColors-inpTextBorder bg-customColors-bg" placeholder="write your mail"/>
                         <IoIosSend className="bg-customColors-main text-white rounded-[30px] w-[48px] h-[36px] py-[6px] px-[12px] transition-bg duration-300 ease-in-out hover:bg-customColors-yellowCol hover:cursor-pointer" />
 
                     </div>
