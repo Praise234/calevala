@@ -4,6 +4,9 @@ import dummyImg from '../assets/images/dummy.png';
 import sport360 from '../assets/images/360sport.png';
 import athletics from '../assets/images/calevalab.png';
 import miukama from '../assets/images/miukama.png';
+import smartCity from '../assets/images/smart_city.png';
+import aiDriven from '../assets/images/AI_audit.png';
+import sportManagement from '../assets/images/competition_management.png';
 
 
 const ProjectPage = () => {
@@ -28,12 +31,12 @@ const ProjectPage = () => {
                     <hr className="border-customColors-inpTextBorder my-3 lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
                     <p className="font-[700] lg:text-[20px] text-[18px] leading-[28.8px] text-customColors-main lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">Smart City Platform</p>
                     <p className="leading-[28.8px] text-customColors-note font-[400] lg:text-[20px] text-[18px] lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">Revolutionize urban living with our Smart City Platform. By integrating cutting-edge technologies, our platform facilitates efficient resource management, enhances public safety, and fosters sustainability, ultimately creating smarter and more livable cities.</p>
-                    <img src={dummyImg} alt="" className="lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
+                    <img src={smartCity} alt="" className="lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
 
                     <hr className="border-customColors-inpTextBorder my-3 lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
                     <p className="font-[700] text-[20px] leading-[28.8px] text-customColors-main lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">AI-Driven Audit Service</p>
                     <p className="leading-[28.8px] text-customColors-note font-[400] lg:text-[20px] text-[18px] lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">Transform your audit process with our AI-Driven Audit Service. Leveraging advanced artificial intelligence algorithms, our service provides comprehensive audit solutions, detecting anomalies, minimizing risks, and ensuring regulatory compliance with unmatched accuracy and efficiency.</p>
-                    <img src={dummyImg} alt="" className="lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
+                    <img src={aiDriven} alt="" className="lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
 
                     <hr className="border-customColors-inpTextBorder my-3 lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
                     <p className="font-[700] text-[20px] leading-[28.8px] text-customColors-main lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">Sport Scouting Ecosystem</p>
@@ -48,7 +51,7 @@ const ProjectPage = () => {
                     <hr className="border-customColors-inpTextBorder my-3 lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
                     <p className="font-[700] text-[20px] leading-[28.8px] text-customColors-main lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">Competition Management System</p>
                     <p className="leading-[28.8px] text-customColors-note font-[400] lg:text-[20px] text-[18px] lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full">Elevate your event management capabilities with our Competition Management System. Designed for organizers of sports tournaments, esports events, and competitions of all kinds, our system streamlines registration, scheduling, scoring, and result tracking, providing a seamless experience for participants and organizers alike.</p>
-                    <img src={dummyImg} alt="" className="lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
+                    <img src={sportManagement} alt="" className="lg:max-w-[637px] md:max-w-[90vw] max-w-[98vw] w-full" />
 
 
                 </div>

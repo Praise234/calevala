@@ -25,7 +25,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col items-center lg:items-start">
+                <div className="flex-1 flex flex-col items-center lg:items-start lg:ml-8">
                     <p className="lg:text-[24px] text-[22px] font-[800] text-customColors-main lg:mb-4">GET GOOD NEWS</p>
                     <div className="flex gap-3">
 
