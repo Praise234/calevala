@@ -5,7 +5,7 @@ import { IoIosSend } from 'react-icons/io';
 
 const Footer = () => {
     return (
-        <div className="bg-customColors-bg w-100 pb-5 pt-2">
+        <div className="bg-customColors-bg w-100 pb-5">
             <div className="flex flex-row lg:max-w-[94.5em] md:max-w-[90vw] max-w-[98vw] w-full m-auto font-sofia justify-between item-center flex-wrap px-3 lg:px-0">
                 <div className="flex-[0.94] flex flex-col items-center lg:items-start">
                     <p className="lg:text-[24px] text-[22px] font-[800] text-customColors-main lg:mb-4">Contact</p>
