@@ -1,11 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import Header from "./compontnts/Header";
+import Header from "./components/Header";
 import ServicePage from "./pages/ServicePage";
-import Footer from "./compontnts/Footer";
+import Footer from "./components/Footer";
 import WorkPage from "./pages/WorkPage";
 import ProjectPage from "./pages/ProjectPage";
 import CompanyPage from "./pages/CompanyPage";
+import AboutPage from "./pages/AboutPage";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/work" Component={WorkPage} />
         <Route path="/projects" Component={ProjectPage} />
         <Route path="/company" Component={CompanyPage} />
+        <Route path="/about" Component={AboutPage} />
       </Routes>
       <Footer />
      

@@ -12,7 +12,8 @@ export default {
           yellowCol: "#DCB700",
           note: "#2A4759",
           mail: "#787878",
-          inpTextBorder: "#C8C8C8"
+          inpTextBorder: "#C8C8C8",
+          pic: "#D9D9D9"
         },
         
       }

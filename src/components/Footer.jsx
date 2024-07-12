@@ -15,7 +15,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="flex-1 flex flex-col items-center lg:items-start">
+                <div className="flex-[1.38] flex flex-col items-center lg:items-start">
                     <p className="lg:text-[24px] text-[22px] font-[800] text-customColors-main lg:mb-4">Follow us</p>
                     <div className="flex lg:justify-between gap-3 lg:gap-5">
                         <img src={xLogo} alt="" className="lg:h-auto lg:w-auto h-[20px] w-[20px]"/>

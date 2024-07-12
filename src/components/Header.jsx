@@ -29,7 +29,7 @@ const Header = () => {
             <div className="bg-customColors-bg w-100 py-5  z-100">
                 <div className="bg-customColors-bg flex max-w-[100vw] px-3 lg:px-0 lg:max-w-[94.5em] w-full mx-auto justify-between items-center font-sofia">
                     <NavLink onClick={() => setToggleMenu(false)} to='/'><img src={logo} alt="" className="w-[140px] h-[36px]" /></NavLink>
-                    <div className={`flex h-0 top-[70px] left-0 right-0 bg-customColors-bg w-[100vw] lg:top-0 transition-height duration-700 ease-in-out ${toggleMenu && "h-screen pt-10"} lg:flex-row flex-col overflow-hidden fixed z-100  lg:pt-3 lg:static gap-5 lg:gap-20 lg:justify-center items-center lg:h-[36px] lg:w-[470px]`}>
+                    <div className={`flex h-0 top-[70px] left-0 right-0 bg-customColors-bg w-[100vw] lg:top-0 transition-height duration-700 ease-in-out ${toggleMenu && "h-screen pt-10"} lg:flex-row flex-col overflow-hidden fixed z-100  lg:pt-3 lg:static gap-5 lg:gap-20 lg:justify-center items-center lg:h-[36px] lg:w-[600px]`}>
                         <NavLink to="/services" className={navClassName} onClick={() => setToggleMenu(false)}>
                             Services
                             <span className={`border border-1 border-customColors-yellowCol w-full h-0.5 transition-all duration-300 ease-in-out origin-center transform scale-x-0 group-hover:scale-x-100 ${pathname === "/services" && "active"}`}></span>
@@ -45,6 +45,10 @@ const Header = () => {
                         <NavLink to="/company" className={navClassName} onClick={() => setToggleMenu(false)}>
                             Company
                             <span className={`border border-1 border-customColors-yellowCol w-full h-0.5 transition-all duration-300 ease-in-out origin-center transform scale-x-0 group-hover:scale-x-100 ${pathname === "/company" && "active"}`}></span>
+                        </NavLink>
+                        <NavLink to="/about" className={navClassName} onClick={() => setToggleMenu(false)}>
+                            About Us
+                            <span className={`border border-1 border-customColors-yellowCol w-full h-0.5 transition-all duration-300 ease-in-out origin-center transform scale-x-0 group-hover:scale-x-100 ${pathname === "/about" && "active"}`}></span>
                         </NavLink>
                         <NavLink onClick={() => setToggleMenu(false)} className="text[16px] lg:hidden transition-all duration-[450ms] ease-in-out font-[800] hover:bg-customColors-yellowCol py-[8px] px-[24px] rounded-full w-[135px] h-[36px] text-center bg-customColors-main text-white flex items-center justify-center">Contact US</NavLink>
                     </div>
